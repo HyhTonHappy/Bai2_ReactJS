@@ -1,10 +1,9 @@
-import Body from "./body";
+import Glasses from "./glasses";
+
 export default function BaiTap2() {
     return (
-        <div>
-            <div>
-                <Body />
-            </div>
+        <div className="container mx-auto p-4">
+            <Glasses />
         </div>
     );
 }
